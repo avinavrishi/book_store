@@ -1,0 +1,85 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2 {
+    color: #333;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: #007BFF;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Table Styles */
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+table th, table td {
+    padding: 12px 15px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+table th {
+    background-color: #007BFF;
+    color: white;
+}
+
+table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+table tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Action Links */
+table td a {
+    margin-right: 10px;
+    color: #007BFF;
+    font-weight: bold;
+}
+
+table td a:hover {
+    color: #0056b3;
+}
+
+/* Add some spacing for headings */
+h2 {
+    margin-top: 20px;
+}
+
+/* Styling for confirmation and alert messages */
+.confirmation, .error {
+    text-align: center;
+    font-size: 18px;
+    margin: 20px auto;
+    padding: 10px;
+    width: 80%;
+    border-radius: 5px;
+}
+
+.confirmation {
+    background-color: #28a745;
+    color: white;
+}
+
+.error {
+    background-color: #dc3545;
+    color: white;
+}
